@@ -9,10 +9,10 @@ Most of my work revolves around **Rust**, performance-conscious system design, a
 ## 🛠️ Technical Focus
 
 - **Systems Programming:** Rust, C/C++, low-level memory and hardware interaction  
-- **Desktop Applications:** Tauri (Rust backend + Angular frontend), WinUI 3 (C#)  
+- **Desktop Applications:** Tauri (Rust backend + Angular frontend)
 - **Web Development:** Angular, TypeScript, Bootstrap  
 - **Emulation:** Intel 8080, CHIP-8, and Game Boy (DMG) emulation  
-- **Embedded & OS Concepts:** ESP32, firmware experimentation, OS-level design ideas  
+- **Embedded & OS Concepts:** ESP32, OS-level design ideas  
 - **Databases & Data:** SQL, JSON-based data modeling  
 - **Tooling & Workflow:** Git, cross-platform build and deployment  
 
