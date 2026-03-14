@@ -1,4 +1,4 @@
-# Hi, I’m Robinson 👋
+# Hi, I’m Robinson
 
 I’m an **engineering student specializing in Artificial Intelligence and Data Science**, with a strong focus on **systems programming, low-level software, and full-stack desktop applications**. I enjoy working close to hardware, understanding how systems behave at a low level, and building practical tools that solve real technical problems.
 
@@ -6,7 +6,7 @@ Most of my work revolves around **Rust**, performance-conscious system design, a
 
 ---
 
-## 🛠️ Technical Focus
+## Technical Focus
 
 - **Systems Programming:** Rust, C/C++, low-level memory and hardware interaction  
 - **Desktop Applications:** Tauri (Rust backend + Angular frontend)
@@ -18,7 +18,7 @@ Most of my work revolves around **Rust**, performance-conscious system design, a
 
 ---
 
-## 🚀 Notable Projects
+## Notable Projects
 
 ### **Chrultrabook Tools**
 A cross-platform desktop utility for Chromebook hardware running alternate operating systems.
@@ -74,7 +74,7 @@ A structured database supporting Chromebook tooling and driver installation.
 
 ---
 
-## 🎓 Background
+## Background
 
 - **B.Tech in Artificial Intelligence and Data Science**  
 - Minor in **Electronics and Communication Engineering**  
@@ -83,7 +83,7 @@ A structured database supporting Chromebook tooling and driver installation.
 
 ---
 
-## 📌 What I’m Working Toward
+## What I’m Working Toward
 
 - Deeper expertise in **systems and driver development**  
 - Writing reliable, maintainable low-level software in Rust  
@@ -91,7 +91,7 @@ A structured database supporting Chromebook tooling and driver installation.
 
 ---
 
-## 🔗 Links
+## Links
 
 - **GitHub:** https://github.com/death7654  
 - **LinkedIn:** https://linkedin.com/in/robinsonarysseril  
