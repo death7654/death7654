@@ -1,7 +1,5 @@
 # Robinson George Arysseril
 
-B.Tech in Artificial Intelligence and Data Science with a Minor in Electronics and Communications from Vimal Jyothi Engineering College (CGPA: 9.46/10).
-
 An engineer working at the convergence of Low-Level Systems Architecture, Emulation, and Machine Learning Infrastructure.
 
 - **GitHub:** [github.com/death7654](https://github.com/death7654)
