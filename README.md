@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-rga.dev-0f2027?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rga.dev)
+[![Website](https://img.shields.io/badge/Website-death7654.github.io-0f2027?style=for-the-badge&logo=googlechrome&logoColor=white)](https://death7654.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-robinsonarysseril-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robinsonarysseril)
 [![GitHub](https://img.shields.io/badge/GitHub-death7654-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/death7654)
 
@@ -245,6 +245,62 @@ flowchart LR
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
+<h2 align="center">Screenshots</h2>
+
+<p align="center"><b>Game Boy Emulator (Rust)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08dae415-ac24-44ac-bbd7-25ae78fe6db5" width="200" alt="Game Boy Emulator (Rust)" />
+  <img src="https://github.com/user-attachments/assets/f40fa8cd-d219-47f6-ac14-ad67e640674a" width="200" alt="Game Boy Emulator (Rust)" />
+  <img src="https://github.com/user-attachments/assets/957c915d-8e76-4fb1-afd8-1f6460397f24" width="200" alt="Game Boy Emulator (Rust)" />
+  <img src="https://github.com/user-attachments/assets/6a588a05-1867-455b-b430-a344ea8584e6" width="200" alt="Game Boy Emulator (Rust)" />
+</p>
+
+<p align="center"><b>NES Emulator (Rust)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c221017d-a800-4a15-ba88-5ba1d49c951d" width="200" alt="NES Emulator (Rust)" />
+  <img src="https://github.com/user-attachments/assets/f2d750a8-b253-4ec2-a6c5-bd207e4e0b08" width="200" alt="NES Emulator (Rust)" />
+  <img src="https://github.com/user-attachments/assets/3d746864-f370-4205-8232-cc03d2186f26" width="200" alt="NES Emulator (Rust)" />
+  <img src="https://github.com/user-attachments/assets/836e818d-499e-4787-81c7-0718b7c4fcee" width="200" alt="NES Emulator (Rust)" />
+</p>
+
+<p align="center"><b>Intel 8080 Emulator (C++)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67e2e9ea-71d1-49c9-a56f-8e29e7c2df27" width="240" alt="Intel 8080 Emulator (C++)" />
+  <img src="https://github.com/user-attachments/assets/0ef88ba2-5103-4362-95a5-942cb1323023" width="240" alt="Intel 8080 Emulator (C++)" />
+  <img src="https://github.com/user-attachments/assets/8743d8c4-a5b6-47d1-ae7e-a4be8f036ac9" width="240" alt="Intel 8080 Emulator (C++)" />
+</p>
+
+<p align="center"><b>XO-CHIP Emulator (Zig)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ed6b2f45-30ed-4b58-9303-b0b73b851cc5" width="280" alt="XO-CHIP Emulator (Zig)" />
+  <img src="https://github.com/user-attachments/assets/24182123-c6a4-4895-868e-cb151b4b8882" width="280" alt="XO-CHIP Emulator (Zig)" />
+  <img src="https://github.com/user-attachments/assets/1be187c3-dffd-41f6-a44f-87acb1503227" width="280" alt="XO-CHIP Emulator (Zig)" />
+</p>
+
+<p align="center"><b>CHIP-8 Emulator (Rust)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/611904e7-27a9-4afd-9238-fe915bb2da61" width="500" alt="CHIP-8 Emulator (Rust)" />
+</p>
+
+<p align="center"><b>Cherry Labs (C#)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/604cba48-a9fd-4c25-adba-44f868bfec06" width="280" alt="Cherry Labs (C#)" />
+</p>
+
+<p align="center"><b>Movie Ticket Booking System (C)</b></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d04f3bb9-34ae-4263-802e-5298ed49644f" width="280" alt="Movie Ticket Booking System (C)" />
+  <img src="https://github.com/user-attachments/assets/03a304a9-81de-4153-a962-da6230005931" width="280" alt="Movie Ticket Booking System (C)" />
+  <img src="https://github.com/user-attachments/assets/302d07dc-9aea-480b-bfb1-635ffe24a18b" width="280" alt="Movie Ticket Booking System (C)" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7ff35580-70b9-4474-bb7a-28199e807e84" width="280" alt="Movie Ticket Booking System (C)" />
+  <img src="https://github.com/user-attachments/assets/426d6eeb-aeac-49e8-b593-852a73a9336c" width="280" alt="Movie Ticket Booking System (C)" />
+  <img src="https://github.com/user-attachments/assets/21a59abc-f453-47b6-b86e-2dad3d3ce44c" width="280" alt="Movie Ticket Booking System (C)" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
+
 <h2 align="center">Open Source</h2>
 
 <div align="center">
@@ -297,7 +353,7 @@ Maintaining Chrultrabook Tools (45,000+ downloads) and managing core hardware co
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-rga.dev-203a43?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rga.dev)
+[![Website](https://img.shields.io/badge/Website-death7654.github.io-203a43?style=for-the-badge&logo=googlechrome&logoColor=white)](https://death7654.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robinsonarysseril)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" alt="footer" />
