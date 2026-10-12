@@ -282,11 +282,6 @@ flowchart LR
   <img src="https://github.com/user-attachments/assets/611904e7-27a9-4afd-9238-fe915bb2da61" width="500" alt="CHIP-8 Emulator (Rust)" />
 </p>
 
-<p align="center"><b>Cherry Labs (C#)</b></p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/604cba48-a9fd-4c25-adba-44f868bfec06" width="280" alt="Cherry Labs (C#)" />
-</p>
-
 <p align="center"><b>Movie Ticket Booking System (C)</b></p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d04f3bb9-34ae-4263-802e-5298ed49644f" width="280" alt="Movie Ticket Booking System (C)" />
