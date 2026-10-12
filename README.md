@@ -19,9 +19,9 @@
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## About
+<h2 align="center">About</h2>
 
 I'm a third-year B.Tech student in **Artificial Intelligence and Data Science (Honors)** at Vimal Jyothi Engineering College, working at the convergence of **low-level systems architecture, hardware emulation, and machine learning infrastructure**.
 
@@ -51,9 +51,9 @@ ML fundamentals implemented from scratch, applied NLP research on bias in langua
 </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## Tech Stack
+<h2 align="center">Tech Stack</h2>
 
 <div align="center">
 
@@ -84,9 +84,9 @@ ML fundamentals implemented from scratch, applied NLP research on bias in langua
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## GitHub Activity
+<h2 align="center">GitHub Activity</h2>
 
 <div align="center">
 
@@ -107,9 +107,9 @@ ML fundamentals implemented from scratch, applied NLP research on bias in langua
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## Featured Projects
+<h2 align="center">Featured Projects</h2>
 
 <table>
 <tr>
@@ -243,9 +243,24 @@ flowchart LR
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## Experience
+<h2 align="center">Open Source</h2>
+
+<div align="center">
+
+Maintaining **Chrultrabook Tools** since May 2023, a cross-platform utility used by 45,000+ people running alternate operating systems on Chromebook hardware.
+
+![Stars](https://img.shields.io/github/stars/death7654/Chrultrabook-Tools?style=for-the-badge&color=36bcf7&labelColor=0f2027)
+![Forks](https://img.shields.io/github/forks/death7654/Chrultrabook-Tools?style=for-the-badge&color=36bcf7&labelColor=0f2027)
+![Last Commit](https://img.shields.io/github/last-commit/death7654/Chrultrabook-Tools?style=for-the-badge&color=36bcf7&labelColor=0f2027)
+![Issues](https://img.shields.io/github/issues/death7654/Chrultrabook-Tools?style=for-the-badge&color=36bcf7&labelColor=0f2027)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
+
+<h2 align="center">Experience</h2>
 
 <table>
 <tr>
@@ -270,15 +285,15 @@ Maintaining Chrultrabook Tools (45,000+ downloads) and managing core hardware co
 </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## Education
+<h2 align="center">Education</h2>
 
 **B.Tech, Artificial Intelligence and Data Science (Honors)**, Vimal Jyothi Engineering College, Chemperi | Expected May 2028
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:36bcf7,100:0f2027&height=2&section=header" width="100%" alt="" />
 
-## Connect
+<h2 align="center">Connect</h2>
 
 <div align="center">
 
