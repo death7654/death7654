@@ -1,110 +1,290 @@
-# Robinson George Arysseril
+<div align="center">
 
-An engineer working at the convergence of Low-Level Systems Architecture, Emulation, and Machine Learning Infrastructure.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Robinson%20George%20Arysseril&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Low-Level%20Systems%20%C2%B7%20Emulation%20%C2%B7%20ML%20Infrastructure&descAlignY=58&descSize=16" width="100%" alt="header" />
 
-- **GitHub:** [github.com/death7654](https://github.com/death7654)
-- **LinkedIn:** [linkedin.com/in/robinsonarysseril](https://linkedin.com/in/robinsonarysseril)
-- **Portfolio:** [death7654.github.io](https://death7654.github.io) — Documenting my journey into programming.
+<a href="https://github.com/death7654">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Built+an+OS+for+the+ESP32+from+scratch;Cycle-accurate+emulators+in+Rust+%26+C%2B%2B;JIT+compilers+targeting+x86-64;Maintaining+Chrultrabook+Tools+(45%2C000%2B+downloads);Writing+ML+algorithms+without+the+libraries" alt="Typing SVG" />
+</a>
 
----
+<br/><br/>
 
-## Technical Focus
+[![Portfolio](https://img.shields.io/badge/Portfolio-rga.dev-0f2027?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rga.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-robinsonarysseril-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robinsonarysseril)
+[![GitHub](https://img.shields.io/badge/GitHub-death7654-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/death7654)
 
-### Systems, Kernel & Hardware Emulation
-- **Languages:** Rust, C/C++, Zig, Xtensa Assembly
-- **Low-Level Concepts:** Bare-metal development, Custom Bootloaders, Memory-Mapped I/O, DMA, Interrupt Handling, FAT32/MBR Parsing
-- **Databases & Tooling:** SQL (MySQL), JSON, Git, Make
+![Profile Views](https://komarev.com/ghpvc/?username=death7654&label=Profile%20views&color=36BCF7&style=flat-square)
+![Followers](https://img.shields.io/github/followers/death7654?style=flat-square&color=36BCF7&label=Followers)
+![Chrultrabook Tools Downloads](https://img.shields.io/badge/Chrultrabook_Tools-45K%2B_downloads-36BCF7?style=flat-square)
+![Education](https://img.shields.io/badge/B.Tech_AI_%26_DS_(Honors)-Class_of_2028-203a43?style=flat-square)
 
-### Machine Learning & AI Research
-- **Frameworks:** PyTorch, TensorFlow, Transformers, Sentence-Transformers, Scikit-Learn
-- **Core Libraries & Architecture:** Pandas, NumPy, Matplotlib, SciPy, Time-Series (LSTM)
-- **Custom Implementations:** Writing fundamental ML mathematical algorithms completely from scratch.
-
-### Full-Stack Desktop & Web Stacks
-- **Frameworks & Languages:** Tauri (Rust backend), Angular, C#, TypeScript, JavaScript, Bootstrap, HTML/CSS
+</div>
 
 ---
 
-## Experience & Research
+## About
 
-### Research Intern
-**Amrita School of Artificial Intelligence, Amrita Vishwa Vidyapeetham** | *May 2026 - Jun. 2026*
-- Investigated and analyzed linguistic features relevant to gender bias in AI systems using modern NLP techniques under Dr. Premjith B.
-- Benchmarked classical machine learning models and deep learning architectures for text bias classification tasks.
-- Applied prompt engineering techniques to assess and mitigate bias in Large Language Models and generative AI systems.
+I'm a third-year B.Tech student in **Artificial Intelligence and Data Science (Honors)** at Vimal Jyothi Engineering College, working at the convergence of **low-level systems architecture, hardware emulation, and machine learning infrastructure**.
 
-### Open Source Contributor
-**Chrultrabook Project** | *May 2023 - Present*
-- Maintained Chrultrabook Tools, a cross-platform system utility with 45,000+ downloads serving users running alternate operating systems on Chromebook hardware.
-- Managed core hardware compatibility database entries, expanding accurate chipset and driver support across device models.
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+**Systems**
 
-## Repository Ecosystem
+Bare-metal software, custom bootloaders, register-level drivers, and operating system internals where every cycle counts.
 
-### Systems & Operating Systems
+</td>
+<td width="33%" valign="top">
 
-#### null32
-- **Stack:** C, Xtensa Assembly
-- A custom operating system for the ESP32 built completely from scratch, focusing on low-level resource management and register-level hardware control.
+**Emulation and JIT**
 
-#### Bare Metal ESP32 Kernel
-- **Stack:** C, Xtensa Assembly, Python
-- Designed a two-stage boot process where a flash-resident bootloader reads a kernel binary from an SD card into DRAM, then copies it to IRAM via a custom Xtensa assembly trampoline before execution.
-- Built a register-level SPI driver from ESP32 TRM documentation covering GPIO matrix routing, IO MUX configuration, and full SD card SPI mode initialization.
-- Implemented an interactive kernel shell and a script interpreter to execute timed GPIO sequences at runtime without reflashing.
+Cycle-accurate emulators for classic hardware, plus just-in-time compilers that translate to native x86-64 machine code.
 
-#### FAT32-Reader-Windows
-- **Stack:** Low-Level C
-- An implementation of a raw disk parser written in low-level C to inspect and traverse FAT32 file systems directly.
+</td>
+<td width="33%" valign="top">
 
-### Hardware Emulators (Correctness & Cycle-Accuracy)
+**Machine Learning**
 
-- **NES-Emulator-Rust:** A Nintendo Entertainment System (NES) emulator engineered in Rust.
-- **Game Boy (DMG) Emulator:** Cycle-accurate hardware simulation in Rust implementing the Sharp LR35902 CPU, scanline-based PPU rendering pipeline, tile caching, sprite compositing, and strict OAM DMA timing restrictions.
-- **Intel 8080 Emulator:** Written in C++ featuring complete instruction set coverage, precise flag operations, and interrupt-driven timing synchronized to duplicate authentic *Space Invaders* arcade hardware.
-- **XO-CHIP & CHIP-8 Interpreters:** Multi-language implementations across Zig, Rust, and C++ with full opcode verification, dual display planes, and 64KB memory addressing extensions.
+ML fundamentals implemented from scratch, applied NLP research on bias in language models, and quantization for efficient inference.
 
-### Audio & Hardware Utilities
-
-#### RumbleGuard
-- **Stack:** Rust
-- A real-time application designed to ingest audio feed via a smartphone microphone to actively cancel out ambient car cabin frequencies.
-
-#### Chrultrabook Tools & Configuration Ecosystem
-- **Stack:** Rust, Tauri, Angular, TypeScript, C++, SQL, JSON
-- **Chrultrabook-Tools:** Configuration utility handling live hardware sensor telemetry, fan curve calculations, and IPC communication.
-- **Chromebook-Driver-Installer:** Automated driver utility managing chipset matches across 200+ models with dynamic metadata updates without app rebuilds.
-- **croskb4-config-generator:** Dedicated repository to program and test keyboard remapping configurations for Chromebooks utilizing Coolstar's drivers.
-- **AntiPop-For-Chromebooks (C++):** Low-level audio utility designed to eliminate popping artifacts when audio streams initialize on modified Chromebook hardware.
-- **chromium-tools:** A collection of specialized utility tools for Chromebooks running Linux environments.
-
-### Machine Learning & AI Research
-
-#### Gender Bias Detection in News Headlines
-- **Stack:** Python, PyTorch, Sentence-Transformers, Transformers, Scikit-Learn
-- Custom NLP pipeline implementing a dual-objective training model (cross-entropy + contrastive loss) combined with a neutrosophic membership scoring function to track decision uncertainty.
-- Built a two-step self-correcting LLM prompting pipeline (Few-Shot Reasoning + Verification Pass) to evaluate bias detection using SmolLM2-1.7B-Instruct.
-
-#### ML-Algorithms
-- **Stack:** C++
-- From-scratch implementations of fundamental Machine Learning algorithms built entirely without external mathematical or training libraries.
-
-#### Stock Market Predictor Engine
-- **Stack:** Python, TensorFlow, TypeScript, Scikit-Learn, yfinance
-- An end-to-end time-series forecasting engine utilizing stacked LSTM neural networks with checkpoint persistence for incremental training, split into a Python training backend (`Stock-Market-Predictor-ML-Model`) and a web-based dashboard configuration (`Stock-Market-Predictor-FrontEnd`).
-
-### Other Engineering Foundations
-
-- **OpenVoice-OpenBox (TypeScript):** A collaborative platform utility built during FOSSHACK 1.0.
-- **Cherry-Labs (C#):** A custom desktop frontend client built for interacting with Gemini models.
-- **BinanceTradingBot (Python):** An automated algorithmic script interface interacting with the Binance API.
-- **Movie-Ticket-Booking-System (C):** A data structures and algorithms paradigm project written cleanly in C.
-- **Todo_list_rust (Rust):** Minimal, high-performance command-line task management utility.
+</td>
+</tr>
+</table>
 
 ---
 
-## Core Focus Goals
+## Tech Stack
 
-- Authoring ultra-reliable, high-performance low-level systems software and drivers using Rust and modern systems tools.
-- Demystifying AI execution constraints by engineering custom compute engines, hardware acceleration layers, and performance profiles directly on hardware.
+<div align="center">
+
+**Systems and Embedded**
+
+<img src="https://skillicons.dev/icons?i=rust,c,cpp,zig,linux,bash,git" alt="systems" />
+
+**Machine Learning and Data**
+
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,numpy,pandas" alt="ml" />
+
+**Desktop and Web**
+
+<img src="https://skillicons.dev/icons?i=tauri,angular,ts,js,cs,react,tailwind,html,css,mysql" alt="web" />
+
+</div>
+
+<details>
+<summary><b>Detailed breakdown</b></summary>
+<br/>
+
+| Area | Skills |
+|---|---|
+| **Low-level** | Bare-metal development, custom bootloaders, memory-mapped I/O, DMA, interrupt handling, FAT32/MBR parsing, Xtensa assembly, x86-64 JIT |
+| **Machine learning** | PyTorch, TensorFlow, Transformers, Sentence-Transformers, Scikit-Learn, SciPy, Matplotlib, LSTM time-series models |
+| **Application** | Tauri, Angular, TypeScript, C#, FastAPI, Bootstrap |
+| **Tooling** | Git, Make, SQL (MySQL), JSON |
+
+</details>
+
+---
+
+## GitHub Activity
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=death7654&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=death7654&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=death7654&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/death7654/death7654/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/death7654/death7654/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/death7654/death7654/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### null32
+A custom operating system for the ESP32, built from scratch in **C and Xtensa assembly**. A two-stage boot process loads the kernel from an SD card into DRAM, then an assembly trampoline copies it to IRAM. Includes a register-level SPI driver written from the ESP32 TRM, an interactive shell, and a script interpreter for timed GPIO sequences.
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Assembly](https://img.shields.io/badge/Xtensa_ASM-6E4C13?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### JIT Compilers
+- **Chip8-JIT-Rust:** high-performance CHIP-8 emulator with an x86-64 just-in-time compiler
+- **BrainFuck-Jit:** a brainfuck JIT compiler
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Hardware Emulators
+- **Game Boy (DMG):** cycle-accurate Rust emulator with scanline PPU, tile caching, sprite compositing, and OAM DMA timing
+- **NES:** emulator engineered in Rust
+- **Intel 8080:** full instruction set in C++, timed to run *Space Invaders*
+- **CHIP-8 / XO-CHIP:** interpreters in Zig, Rust, and C++
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### Chrultrabook Tools
+Cross-platform utility handling live hardware telemetry, fan curve calculations, and IPC for users running alternate operating systems on Chromebook hardware. **45,000+ downloads.**
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Gender Bias Detection in News Headlines
+NLP pipeline with dual-objective training (cross-entropy plus contrastive loss), a neutrosophic membership score for decision uncertainty, and a two-step self-correcting LLM prompting pipeline on SmolLM2-1.7B-Instruct.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
+</td>
+<td width="50%" valign="top">
+
+### ML-Algorithms and Stock Predictor
+Fundamental ML algorithms in **C++ with no external math or training libraries**, plus an end-to-end stacked-LSTM forecasting engine with checkpointed incremental training.
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### SentinelDeFi
+End-to-end streaming pipeline for detecting anomalous DeFi transactions in real time.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### BusMitra
+Bus crowd-prediction app with ML-based crowd forecasting, built with a Tauri and Rust client and a FastAPI backend.
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+### null32 boot flow
+
+```mermaid
+flowchart LR
+    A["Flash-resident<br/>bootloader"] --> B["SD card<br/>(SPI mode)"]
+    B --> C["Kernel binary<br/>loaded into DRAM"]
+    C --> D["Xtensa assembly<br/>trampoline"]
+    D --> E["Kernel copied<br/>to IRAM"]
+    E --> F["Shell and script<br/>interpreter"]
+```
+
+<div align="center">
+
+[![Pinned: null32](https://github-readme-stats.vercel.app/api/pin/?username=death7654&repo=null32&theme=tokyonight&hide_border=true)](https://github.com/death7654/null32)
+[![Pinned: Chrultrabook-Tools](https://github-readme-stats.vercel.app/api/pin/?username=death7654&repo=Chrultrabook-Tools&theme=tokyonight&hide_border=true)](https://github.com/death7654/Chrultrabook-Tools)
+
+</div>
+
+<details>
+<summary><b>All other repositories</b></summary>
+<br/>
+
+| Project | Stack | Description |
+|---|---|---|
+| **FAT32-Reader-Windows** | C | Raw disk parser for inspecting and traversing FAT32 file systems |
+| **RumbleGuard** | Rust | Real-time ambient car-cabin noise cancellation using a phone microphone |
+| **Chromebook-Driver-Installer** | Rust / Tauri | Chipset matching across 200+ models with metadata updates, no rebuild needed |
+| **croskb4-config-generator** | | Build and test keyboard remaps for Coolstar's drivers |
+| **AntiPop-For-Chromebooks** | C++ | Eliminates audio popping on stream initialization |
+| **chromium-tools** | | Utilities for Chromebooks running Linux |
+| **OpenVoice-OpenBox** | TypeScript | Built during FOSSHACK 1.0 |
+| **Cherry-Labs** | C# | Desktop client for Gemini models |
+| **BinanceTradingBot** | Python | Algorithmic trading script for the Binance API |
+| **Quantization-Engine** | Rust | Neural network weight quantization (int8 / int4) |
+| **Pothole_Detection_ML_Model** | Python | Machine learning model to detect potholes |
+| **Chromebook-Database** | | Hardware compatibility database for Chromebook drivers |
+| **Driver-Installer-Linux** | | Driver installer for Chromebooks running Linux |
+| **Movie-Ticket-Booking-System** | C | Data structures and algorithms project |
+| **Todo_list_rust** | Rust | Minimal command-line task manager |
+| **death7654.github.io** | HTML | Website documenting my journey into programming |
+
+</details>
+
+---
+
+## Experience
+
+<table>
+<tr>
+<td width="22%" valign="top"><b>May 2026<br/>Jun 2026</b></td>
+<td valign="top">
+
+**Research Intern**, Amrita School of Artificial Intelligence
+
+Analyzed linguistic features of gender bias in AI systems with modern NLP, benchmarked classical ML and deep learning models for bias classification, and applied prompt engineering to assess and mitigate bias in LLMs, under Dr. Premjith B.
+
+</td>
+</tr>
+<tr>
+<td width="22%" valign="top"><b>May 2023<br/>Present</b></td>
+<td valign="top">
+
+**Open Source Contributor**, Chrultrabook Project
+
+Maintaining Chrultrabook Tools (45,000+ downloads) and managing core hardware compatibility database entries across chipsets and device models.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Education
+
+**B.Tech, Artificial Intelligence and Data Science (Honors)**, Vimal Jyothi Engineering College, Chemperi | Expected May 2028
+
+---
+
+## Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-rga.dev-203a43?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rga.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robinsonarysseril)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" alt="footer" />
+
+</div>
